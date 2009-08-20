@@ -1,0 +1,1 @@
+server "mano", :app, :web, :db, :primary => true
