@@ -10,6 +10,7 @@
 
 <VirtualHost *:80>
   ServerName <%= configuration[:domain] || `hostname -f` %>
+  ServerAlias www.<%= configuration[:domain] || `hostname -f` %>
   DocumentRoot "<%= configuration[:deploy_to] + "/current/public" %>"
   RailsEnv production
   RewriteEngine On
