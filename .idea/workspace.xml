@@ -27,10 +27,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moonshine.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="moonshine.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/moonshine.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.11914894">
               <folding />
             </state>
           </provider>
@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/ap/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="3" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.7489362">
+            <state line="102" column="3" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -546,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/moonshine.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -597,7 +590,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/ap/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="3" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.7489362">
+        <state line="102" column="3" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/moonshine.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.11914894">
           <folding />
         </state>
       </provider>
