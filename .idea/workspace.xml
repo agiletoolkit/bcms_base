@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_footer.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.1578948">
+            <state line="4" column="21" selection-start="161" selection-end="161" vertical-scroll-proportion="0.07196402">
               <folding />
             </state>
           </provider>
@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/ap/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="14" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.72727275">
+            <state line="106" column="14" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-18.461538">
               <folding />
             </state>
           </provider>
@@ -549,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.1578948">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_header.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
@@ -565,7 +558,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/ap/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="14" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.72727275">
+        <state line="106" column="14" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-18.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="161" selection-end="161" vertical-scroll-proportion="0.07196402">
           <folding />
         </state>
       </provider>
