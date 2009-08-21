@@ -103,6 +103,9 @@ body {
    
 }
 
+#bd img{
+    padding: 5px
+}
 
 #search {
     margin-bottom:10px;
