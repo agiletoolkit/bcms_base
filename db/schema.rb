@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090813213104) do
+ActiveRecord::Schema.define(:version => 20100521042244) do
 
   create_table "attachment_versions", :force => true do |t|
     t.integer  "attachment_id"
@@ -99,19 +99,21 @@ ActiveRecord::Schema.define(:version => 20090813213104) do
     t.text     "body"
     t.integer  "comments_count"
     t.datetime "published_at"
-    t.boolean  "published",       :default => false
-    t.boolean  "deleted",         :default => false
-    t.boolean  "archived",        :default => false
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
     t.string   "version_comment"
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
   end
 
   create_table "blog_posts", :force => true do |t|
     t.integer  "version"
-    t.integer  "lock_version",   :default => 0
+    t.integer  "lock_version",       :default => 0
     t.integer  "blog_id"
     t.integer  "author_id"
     t.integer  "category_id"
@@ -121,13 +123,15 @@ ActiveRecord::Schema.define(:version => 20090813213104) do
     t.text     "body"
     t.integer  "comments_count"
     t.datetime "published_at"
-    t.boolean  "published",      :default => false
-    t.boolean  "deleted",        :default => false
-    t.boolean  "archived",       :default => false
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
   end
 
   create_table "blog_versions", :force => true do |t|
@@ -136,29 +140,31 @@ ActiveRecord::Schema.define(:version => 20090813213104) do
     t.string   "name"
     t.string   "format"
     t.text     "template"
-    t.boolean  "published",       :default => false
-    t.boolean  "deleted",         :default => false
-    t.boolean  "archived",        :default => false
+    t.boolean  "published",         :default => false
+    t.boolean  "deleted",           :default => false
+    t.boolean  "archived",          :default => false
     t.string   "version_comment"
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "moderate_comments", :default => true
   end
 
   create_table "blogs", :force => true do |t|
     t.integer  "version"
-    t.integer  "lock_version",  :default => 0
+    t.integer  "lock_version",      :default => 0
     t.string   "name"
     t.string   "format"
     t.text     "template"
-    t.boolean  "published",     :default => false
-    t.boolean  "deleted",       :default => false
-    t.boolean  "archived",      :default => false
+    t.boolean  "published",         :default => false
+    t.boolean  "deleted",           :default => false
+    t.boolean  "archived",          :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "moderate_comments", :default => true
   end
 
   create_table "categories", :force => true do |t|
@@ -583,6 +589,7 @@ ActiveRecord::Schema.define(:version => 20090813213104) do
     t.datetime "expires_at"
     t.string   "remember_token",            :limit => 40
     t.datetime "remember_token_expires_at"
+    t.string   "reset_token"
   end
 
   add_index "users", ["login"], :name => "index_users_on_login", :unique => true
