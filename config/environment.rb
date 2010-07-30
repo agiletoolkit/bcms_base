@@ -10,6 +10,7 @@ Rails::Initializer.run do |config|
   config.gem "browsercms"
   config.gem "bcms_news"
   config.gem "bcms_blog"
+  config.gem "bcms_feeds"
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
