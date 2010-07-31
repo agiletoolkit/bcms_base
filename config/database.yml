@@ -15,11 +15,11 @@ test:
   pool: 5
   timeout: 5000
 
-production:
-  adapter: mysql
-  database: ap_production
-  host: localhost
-  username: root
-  password: 
-  encoding: utf8
-  socket: /var/run/mysqld/mysqld.sock
+#production:
+#  adapter: mysql
+#  database: ??_production
+#  host: localhost
+#  username: root
+#  password: 
+#  encoding: utf8
+#  socket: /var/run/mysqld/mysqld.sock

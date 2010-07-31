@@ -1,12 +1,12 @@
 :ruby: ree
-:application: agilephilanthropy.org
+#:application: agilephilanthropy.org
 :user: rails
 :group: rails
 :ssl:
 :self_signed: true
-:deploy_to: /srv/agile_philanthropy
-:domain: agilephilanthropy.org
-:repository: git@github.com:agiletoolkit/agile_philanthropy.git
+#:deploy_to: /srv/??
+#:domain: agilephilanthropy.org
+#:repository: git@github.com:agiletoolkit/agile_philanthropy.git
 :shared_children:
 - system
 - log

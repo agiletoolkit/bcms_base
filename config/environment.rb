@@ -45,4 +45,4 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 end
 
-Attachment.storage_location="/srv/mano_browsercms/attachments"
+#Attachment.storage_location="/srv/??/attachments"
